@@ -9,8 +9,8 @@ def convertToFirehoseRecord(ddbRecord):
     firehoseRecord = "{},{},{},{},{},{}".format(newImage['ID']['S'],
     newImage['Name']['S'],
     newImage['City']['S'],
-	newImage['Email']['S'],
-	newImage['Designation']['S'],
+    newImage['Email']['S'],
+    newImage['Designation']['S'],
     newImage['PhoneNumber']['S']) + '\n'
     return firehoseRecord
     
